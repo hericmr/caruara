@@ -1,0 +1,45 @@
+<style>
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f09c34;
+}
+
+header {
+  padding: 0px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.page-cover-image {
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.page-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Times New Roman', Times, serif, Impact;
+  font-size: max(60px, 10vw);
+  text-shadow: 2px 2px 8px #0a002f;
+}
+
+@media screen and (max-width: 600px) {
+  .page-title {
+    font-size: 20px;
+  }
+}
+
+.page-body {
+  padding: 70px;
+  text-align: justify;
+}
+
+p {
+  text-align: justify;
+}
+</style>
