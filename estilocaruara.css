@@ -18,28 +18,48 @@ header {
   position: relative;
 }
 
-.page-title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Times New Roman', Times, serif, Impact;
-  font-size: max(60px, 10vw);
-  text-shadow: 2px 2px 8px #0a002f;
-}
-
-@media screen and (max-width: 600px) {
-  .page-title {
-    font-size: 20px;
-  }
-}
-
 .page-body {
-  padding: 70px;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 100px;
+  position: relative;
+  z-index: 1;
   text-align: justify;
 }
 
+.page-title{
+  top: 55%;
+
+  color: #ffffff;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Times New Roman', Times, serif, Impact;
+  font-size: max(50px, 8vw);
+
+}
+
+.page-title1{
+  font-weight: bold;
+  top: 23%;
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Times New Roman', Times, serif, Impact;
+  font-size: max(70px, 12vw);
+  text-shadow: 2px 2px 8px #ffffff;
+}
+
+
+
+
+
+
+
 p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   text-align: justify;
 }
 </style>
